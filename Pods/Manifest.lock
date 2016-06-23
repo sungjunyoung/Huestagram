@@ -1,12 +1,45 @@
 PODS:
+  - Alamofire (3.4.1)
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - Gloss (0.7.3)
+  - Log (0.5)
+  - SwiftyHue (0.1.11):
+    - SwiftyHue/Base (= 0.1.11)
+    - SwiftyHue/BridgeServices (= 0.1.11)
+  - SwiftyHue/Base (0.1.11):
+    - Alamofire (~> 3.4.0)
+    - Gloss (~> 0.7)
+    - Log (~> 0.5)
+  - SwiftyHue/BridgeServices (0.1.11):
+    - Alamofire (~> 3.4.0)
+    - CocoaAsyncSocket (~> 7.4.3)
+    - Gloss (~> 0.7)
+    - Log (~> 0.5)
+  - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
   - ChameleonFramework/Swift
+  - SwiftyHue (~> 0.1.6)
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  Gloss: c97a95d6279821f35fa0138700bce0391bce87c1
+  Log: 5972312cb85cffbc56407b612936b610eb4af8a5
+  SwiftyHue: 64bdc0d7f75b6a7a094a497744e8686327c083ca
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: fde11478f4529bd3ad504991ac988a34069b53fc
+
+COCOAPODS: 1.0.1

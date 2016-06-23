@@ -2,16 +2,227 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/HuestagramUITests/HuestagramUITests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HuestagramUITests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HuestagramTests/HuestagramTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HuestagramTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Huestagram/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Huestagram/Base.lproj/Main.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Huestagram/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Huestagram/ViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Huestagram/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Huestagram/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/HuestagramTests/HuestagramTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/HuestagramTests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/HuestagramUITests/HuestagramUITests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/HuestagramUITests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Validation.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Timeline.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Error.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Stream.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/MultipartFormData.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/ServerTrustPolicy.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/ParameterEncoding.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Result.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Download.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Manager.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Upload.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/NetworkReachabilityManager.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/ResponseSerialization.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Request.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Notifications.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Response.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Alamofire/Source/Alamofire.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Gloss/Sources/Operators.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Gloss/Sources/Decoder.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Gloss/Sources/ExtensionArray.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Gloss/Sources/Encoder.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Gloss/Sources/ExtensionDictionary.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Gloss/Sources/Gloss.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaAsyncSocket/Source/RunLoop/AsyncUdpSocket.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaAsyncSocket/Source/RunLoop/AsyncUdpSocket.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaAsyncSocket/Source/RunLoop/AsyncSocket.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaAsyncSocket/Source/RunLoop/AsyncSocket.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaAsyncSocket/Source/GCD/GCDAsyncUdpSocket.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaAsyncSocket/Source/GCD/GCDAsyncSocket.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaAsyncSocket/Source/GCD/GCDAsyncSocket.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/CocoaAsyncSocket/Source/GCD/GCDAsyncUdpSocket.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram-frameworks.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Huestagram/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram-acknowledgements.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Alamofire/Alamofire.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Alamofire/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Alamofire/Alamofire.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Alamofire/Alamofire-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/CocoaAsyncSocket/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Gloss/Gloss-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Gloss/Gloss-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Gloss/Gloss.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Gloss/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Gloss/Gloss.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Gloss/Gloss-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramTests/Pods-HuestagramTests.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramTests/Pods-HuestagramTests-acknowledgements.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramTests/Pods-HuestagramTests.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramTests/Pods-HuestagramTests-frameworks.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramTests/Pods-HuestagramTests-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramTests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramTests/Pods-HuestagramTests-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramTests/Pods-HuestagramTests.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramTests/Pods-HuestagramTests-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramTests/Pods-HuestagramTests-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyHue/SwiftyHue-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyHue/SwiftyHue.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyHue/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyHue/SwiftyHue-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyHue/SwiftyHue-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyHue/SwiftyHue.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Log/Log-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Log/Log.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Log/Log.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Log/Log-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Log/Log-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Log/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ChameleonFramework/ChameleonFramework-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ChameleonFramework/ChameleonFramework.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ChameleonFramework/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ChameleonFramework/ChameleonFramework-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ChameleonFramework/ChameleonFramework.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyJSON/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramUITests/Pods-HuestagramUITests-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramUITests/Pods-HuestagramUITests.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramUITests/Pods-HuestagramUITests-acknowledgements.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramUITests/Pods-HuestagramUITests-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramUITests/Pods-HuestagramUITests-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramUITests/Pods-HuestagramUITests-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramUITests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramUITests/Pods-HuestagramUITests.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramUITests/Pods-HuestagramUITests-frameworks.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-HuestagramUITests/Pods-HuestagramUITests.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/ReplaceMe.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/Utilities.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourcesCache.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeAccessConfig.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeSendAPI.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/NSDateFormatter+Extension.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/HeartbeatManager.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/SoftwareUpdateStatus.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/AppData.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Error.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/BridgeConfiguration.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Rule/RuleAction.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Rule/Rule.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Rule/RuleCondition.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/WhitelistEntry.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/BridgeResource.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Group.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Schedule/Schedule.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Schedule/ScheduleCommand.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Backup.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/GenericStatusSensor/GenericStatusSensorConfig.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/GenericStatusSensor/GenericStatusState.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/GenericStatusSensor/GenericStatusSensor.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/SensorState.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/SwitchSensor/SwitchSensorConfig.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/SwitchSensor/SwitchSensor.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/SwitchSensor/SwitchSensorState.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/TemperatureSensor/TemperatureSensor.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/TemperatureSensor/TemperatureSensorState.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/TemperatureSensor/TemperatureSensorConfig.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/SensorConfig.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/Sensor.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/PresenceSensor/PresenceSensorConfig.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/PresenceSensor/PresenceSensorState.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/PresenceSensor/PresenceSensor.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/DaylightSensor/DaylightSensorState.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/DaylightSensor/DaylightSensor.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/DaylightSensor/DaylightSensorConfig.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/HumiditySensor/HumiditySensorState.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/HumiditySensor/HumiditySensorConfig.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/HumiditySensor/HumiditySensor.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/OpenCloseSensor/OpenCloseSensorState.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/OpenCloseSensor/OpenCloseSensor.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/OpenCloseSensor/OpenCloseSensorConfig.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/GenericFlagSensor/GenericFlagSensorConfig.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/GenericFlagSensor/GenericFlagSensor.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Sensors/GenericFlagSensor/GenericFlagSensorState.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Scene.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/Light.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/LightState.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/PortalState.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/BridgeResourceModels/SoftwareUpdateStatusDeviceTypes.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/SwiftyHue.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/Dictionary+Extension.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/ResourceCacheHeartbeatProcessor.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/TestRequester.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/Base/Logger/LoggerConfig.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/BridgeServices/BridgeAuthenticator/BridgeAuthenticator.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/BridgeServices/BridgeAuthenticator/BridgeAuthenticatorDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/BridgeServices/BridgeFinder/Validator/BridgeResultParser.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/BridgeServices/BridgeFinder/Validator/BridgeValidator.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/BridgeServices/BridgeFinder/HueBridge.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/BridgeServices/BridgeFinder/BridgeFinder.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/BridgeServices/BridgeFinder/HueBridgeIcon.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/BridgeServices/BridgeFinder/Scanner/ScannerDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/BridgeServices/BridgeFinder/Scanner/Scanner.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/BridgeServices/BridgeFinder/Scanner/NUPNPScanner.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/BridgeServices/BridgeFinder/Scanner/IPScanner.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/BridgeServices/BridgeFinder/Scanner/SSDPScanner.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/BridgeServices/BridgeFinder/BridgeFinderDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyHue/Sources/SwiftyHue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Log/Source/Extensions/Themes.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Log/Source/Extensions/Formatters.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Log/Source/Formatter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Log/Source/Logger.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Log/Source/Supporting Files/Utilities.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Log/Source/Theme.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Log/Source/Benchmarker.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonEnums.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIAppearance+Swift.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UILabel+Chameleon.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonConstants.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/Chameleon_.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/Chameleon_.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonMacros.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIButton+Chameleon.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIButton+Chameleon.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIView+ChameleonPrivate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIColor+Chameleon.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UINavigationController+Chameleon.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIViewController+Chameleon.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIView+ChameleonPrivate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UILabel+Chameleon.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UINavigationController+Chameleon.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIViewController+Chameleon.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIColor+Chameleon.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/NSArray+Chameleon.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/NSArray+Chameleon.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/Chameleon.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIAppearance+Swift.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ChameleonFramework/Pod/Classes/Swift/ChameleonShorthand.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyJSON/Source/SwiftyJSON.swift" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

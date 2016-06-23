@@ -4,7 +4,27 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ChameleonFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CocoaAsyncSocket.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Gloss.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Log.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -14,15 +34,75 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-HuestagramTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HuestagramUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyHue.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>246AF820596CD02B830E60ED1A165BE7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3937A76C8ECC80356D541A8FF25BE55E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5172ACAB7FEA22813859DC97CA0AA16F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FEB021E3A63985E355E15207B2753267</key>
+		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B07B012AE17952EE777271E277F90284</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1D17BA74BEACBD28F897F231B5907A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7C99010DEE22AAAB76BCF07F093651A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D098B5FBAF91CAC36727EA46E6472E61</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D94658F81C826283A67FF5B8D628B8F5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F3D01A6062ED6A1C5EC6C05301929078</key>
 		<dict>
 			<key>primary</key>
 			<true/>
