@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D321450FDF6004E60D4ABD9 /* Pods_HuestagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8905703E6D4D07BEA2E8EADA /* Pods_HuestagramTests.framework */; };
 		2118013D25884173C02B481C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21180D2F21288695074CAC2E /* Main.storyboard */; };
 		211804411EBF501565B8BCA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211800B40C859220EB77F6F3 /* LaunchScreen.storyboard */; };
 		2118087CF5E8205B720AE84F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 211808CCDC473FA7DEDB277F /* Info.plist */; };
@@ -18,7 +19,18 @@
 		21180F5366007042666EA4C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21180DBAD5F9C443417ECC58 /* AppDelegate.swift */; };
 		21180F6C0A273AEF95E73B21 /* HuestagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21180B8C4B042877B9F730A6 /* HuestagramUITests.swift */; };
 		2707ADA81D15492400CA2408 /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2707ADA71D15492400CA2408 /* ChameleonFramework.framework */; };
-		427CAA2EBBE32D9D64F0C598 /* Pods_Huestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A83EA2742000EA5DDA729A9 /* Pods_Huestagram.framework */; };
+		275F3E131D1C0A38009EB3D8 /* SubView0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F3E111D1C0A38009EB3D8 /* SubView0.swift */; };
+		275F3E141D1C0A38009EB3D8 /* SubView0.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275F3E121D1C0A38009EB3D8 /* SubView0.xib */; };
+		275F3E171D1C0A5A009EB3D8 /* SubView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F3E151D1C0A5A009EB3D8 /* SubView1.swift */; };
+		275F3E181D1C0A5A009EB3D8 /* SubView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275F3E161D1C0A5A009EB3D8 /* SubView1.xib */; };
+		275F3E1B1D1C0A6A009EB3D8 /* SubView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F3E191D1C0A6A009EB3D8 /* SubView2.swift */; };
+		275F3E1C1D1C0A6A009EB3D8 /* SubView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275F3E1A1D1C0A6A009EB3D8 /* SubView2.xib */; };
+		275F3E1F1D1C0A7C009EB3D8 /* SubView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F3E1D1D1C0A7C009EB3D8 /* SubView3.swift */; };
+		275F3E201D1C0A7C009EB3D8 /* SubView3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275F3E1E1D1C0A7C009EB3D8 /* SubView3.xib */; };
+		275F3E231D1C0A8E009EB3D8 /* SubView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F3E211D1C0A8E009EB3D8 /* SubView4.swift */; };
+		275F3E241D1C0A8E009EB3D8 /* SubView4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275F3E221D1C0A8E009EB3D8 /* SubView4.xib */; };
+		31E4F298A4210586A2C23DDA /* Pods_Huestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381D51F34B2230F7671C4B63 /* Pods_Huestagram.framework */; };
+		937CF74DF6F7670C55BABC84 /* Pods_HuestagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A396DCEDA174459FE88C9A20 /* Pods_HuestagramUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0598A3B5908518A7336B9B8D /* Pods-HuestagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuestagramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuestagramUITests/Pods-HuestagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		21180448F633B6A0CD4B86C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21180490BE319FA2E698C50C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		211804C24CB38E5EA3A13BE8 /* HuestagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuestagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,9 +66,24 @@
 		21180DBAD5F9C443417ECC58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21180FB844D20F618676D92E /* Huestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2707ADA71D15492400CA2408 /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Huestagram-hfogvworhkuuxmcaepvdzkqfgdqr/Build/Products/Debug-iphoneos/ChameleonFramework.framework"; sourceTree = "<group>"; };
-		4A83EA2742000EA5DDA729A9 /* Pods_Huestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Huestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50D00C6102018F81697FD290 /* Pods-Huestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Huestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram.release.xcconfig"; sourceTree = "<group>"; };
-		78AFAF237018465D90F6264E /* Pods-Huestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Huestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram.debug.xcconfig"; sourceTree = "<group>"; };
+		275F3E111D1C0A38009EB3D8 /* SubView0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubView0.swift; sourceTree = "<group>"; };
+		275F3E121D1C0A38009EB3D8 /* SubView0.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubView0.xib; sourceTree = "<group>"; };
+		275F3E151D1C0A5A009EB3D8 /* SubView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubView1.swift; sourceTree = "<group>"; };
+		275F3E161D1C0A5A009EB3D8 /* SubView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubView1.xib; sourceTree = "<group>"; };
+		275F3E191D1C0A6A009EB3D8 /* SubView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubView2.swift; sourceTree = "<group>"; };
+		275F3E1A1D1C0A6A009EB3D8 /* SubView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubView2.xib; sourceTree = "<group>"; };
+		275F3E1D1D1C0A7C009EB3D8 /* SubView3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubView3.swift; sourceTree = "<group>"; };
+		275F3E1E1D1C0A7C009EB3D8 /* SubView3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubView3.xib; sourceTree = "<group>"; };
+		275F3E211D1C0A8E009EB3D8 /* SubView4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubView4.swift; sourceTree = "<group>"; };
+		275F3E221D1C0A8E009EB3D8 /* SubView4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubView4.xib; sourceTree = "<group>"; };
+		381D51F34B2230F7671C4B63 /* Pods_Huestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Huestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5650CFF12D48D2DC7019DA45 /* Pods-Huestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Huestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram.release.xcconfig"; sourceTree = "<group>"; };
+		8905703E6D4D07BEA2E8EADA /* Pods_HuestagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuestagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A396DCEDA174459FE88C9A20 /* Pods_HuestagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuestagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A949A3170FE45E7EE5998981 /* Pods-Huestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Huestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram.debug.xcconfig"; sourceTree = "<group>"; };
+		AF5CC5D4A824D4376CA63851 /* Pods-HuestagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuestagramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuestagramTests/Pods-HuestagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		BDBBD6E91873AAF8C3FFA06A /* Pods-HuestagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuestagramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuestagramUITests/Pods-HuestagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C421DF50312960E03AEA60D6 /* Pods-HuestagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuestagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuestagramTests/Pods-HuestagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +92,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2707ADA81D15492400CA2408 /* ChameleonFramework.framework in Frameworks */,
-				427CAA2EBBE32D9D64F0C598 /* Pods_Huestagram.framework in Frameworks */,
+				31E4F298A4210586A2C23DDA /* Pods_Huestagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937CF74DF6F7670C55BABC84 /* Pods_HuestagramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D321450FDF6004E60D4ABD9 /* Pods_HuestagramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,8 +141,8 @@
 				21180E66AF177762C52CEFBE /* Huestagram */,
 				2118044DB82999A99CA63C0A /* HuestagramTests */,
 				21180F9CC477D41260B48ED6 /* HuestagramUITests */,
-				6095F96B2178F8497058BAF3 /* Pods */,
 				662653E9AC6248CA17734235 /* Frameworks */,
+				36F710712F132C3DF5AEA8CB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 				21180DBAD5F9C443417ECC58 /* AppDelegate.swift */,
 				21180D2F21288695074CAC2E /* Main.storyboard */,
 				21180DAEAE35AD52D36A9618 /* ViewController.swift */,
+				275F3E111D1C0A38009EB3D8 /* SubView0.swift */,
+				275F3E121D1C0A38009EB3D8 /* SubView0.xib */,
+				275F3E151D1C0A5A009EB3D8 /* SubView1.swift */,
+				275F3E161D1C0A5A009EB3D8 /* SubView1.xib */,
+				275F3E191D1C0A6A009EB3D8 /* SubView2.swift */,
+				275F3E1A1D1C0A6A009EB3D8 /* SubView2.xib */,
+				275F3E1D1D1C0A7C009EB3D8 /* SubView3.swift */,
+				275F3E1E1D1C0A7C009EB3D8 /* SubView3.xib */,
+				275F3E211D1C0A8E009EB3D8 /* SubView4.swift */,
+				275F3E221D1C0A8E009EB3D8 /* SubView4.xib */,
 			);
 			path = Huestagram;
 			sourceTree = "<group>";
@@ -138,11 +178,15 @@
 			path = HuestagramUITests;
 			sourceTree = "<group>";
 		};
-		6095F96B2178F8497058BAF3 /* Pods */ = {
+		36F710712F132C3DF5AEA8CB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				78AFAF237018465D90F6264E /* Pods-Huestagram.debug.xcconfig */,
-				50D00C6102018F81697FD290 /* Pods-Huestagram.release.xcconfig */,
+				A949A3170FE45E7EE5998981 /* Pods-Huestagram.debug.xcconfig */,
+				5650CFF12D48D2DC7019DA45 /* Pods-Huestagram.release.xcconfig */,
+				C421DF50312960E03AEA60D6 /* Pods-HuestagramTests.debug.xcconfig */,
+				AF5CC5D4A824D4376CA63851 /* Pods-HuestagramTests.release.xcconfig */,
+				0598A3B5908518A7336B9B8D /* Pods-HuestagramUITests.debug.xcconfig */,
+				BDBBD6E91873AAF8C3FFA06A /* Pods-HuestagramUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -151,7 +195,9 @@
 			isa = PBXGroup;
 			children = (
 				2707ADA71D15492400CA2408 /* ChameleonFramework.framework */,
-				4A83EA2742000EA5DDA729A9 /* Pods_Huestagram.framework */,
+				381D51F34B2230F7671C4B63 /* Pods_Huestagram.framework */,
+				8905703E6D4D07BEA2E8EADA /* Pods_HuestagramTests.framework */,
+				A396DCEDA174459FE88C9A20 /* Pods_HuestagramUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -163,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 211803A4C361D05C64581812 /* Build configuration list for PBXNativeTarget "HuestagramTests" */;
 			buildPhases = (
+				C2C3E919E39DAA93EF3D1ECA /* [CP] Check Pods Manifest.lock */,
 				21180B4CD6D7AABBB326B878 /* Sources */,
 				21180ABC74057A0F06A12230 /* Frameworks */,
 				21180C4F36F6478B65B1E342 /* Resources */,
+				DBC93B9FFE52C723779AE465 /* [CP] Embed Pods Frameworks */,
+				3FF9ACCB187CC7AF9508B4F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,12 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21180A7A9CA0C29571187F3F /* Build configuration list for PBXNativeTarget "Huestagram" */;
 			buildPhases = (
-				AF71998F36E9ACA440BAD2E4 /* Check Pods Manifest.lock */,
+				B5D1764554B3E1187EA45A7D /* [CP] Check Pods Manifest.lock */,
 				21180B729F2A6CD59CDA684C /* Sources */,
 				211801122134DB33B32608A0 /* Frameworks */,
 				211801038F79F973EF8EEF93 /* Resources */,
-				22E50C5438F61D24986CDEE9 /* Embed Pods Frameworks */,
-				E636F49E772DFDFB2795F633 /* Copy Pods Resources */,
+				4AB03E818E47178412850B3E /* [CP] Embed Pods Frameworks */,
+				65B5E8B59564E8D54864BFB5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 211809FDE0407AD079465148 /* Build configuration list for PBXNativeTarget "HuestagramUITests" */;
 			buildPhases = (
+				A20F20F73C1D0B38BE5474A5 /* [CP] Check Pods Manifest.lock */,
 				21180E4BAE11FFF32316ECD7 /* Sources */,
 				211809BA5EDDE8EBAFB0544E /* Frameworks */,
 				211804440C5334607C3FF9C1 /* Resources */,
+				CA5842A22862B8CAADFFD9E8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,9 +304,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275F3E1C1D1C0A6A009EB3D8 /* SubView2.xib in Resources */,
+				275F3E241D1C0A8E009EB3D8 /* SubView4.xib in Resources */,
 				21180DEDADB474CBC35A7CAE /* Info.plist in Resources */,
+				275F3E181D1C0A5A009EB3D8 /* SubView1.xib in Resources */,
 				21180AAA1A93643F0E7CD6AE /* Assets.xcassets in Resources */,
 				211804411EBF501565B8BCA8 /* LaunchScreen.storyboard in Resources */,
+				275F3E201D1C0A7C009EB3D8 /* SubView3.xib in Resources */,
+				275F3E141D1C0A38009EB3D8 /* SubView0.xib in Resources */,
 				2118013D25884173C02B481C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,14 +335,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		22E50C5438F61D24986CDEE9 /* Embed Pods Frameworks */ = {
+		3FF9ACCB187CC7AF9508B4F8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuestagramTests/Pods-HuestagramTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AB03E818E47178412850B3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,14 +365,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AF71998F36E9ACA440BAD2E4 /* Check Pods Manifest.lock */ = {
+		65B5E8B59564E8D54864BFB5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A20F20F73C1D0B38BE5474A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,19 +395,64 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		E636F49E772DFDFB2795F633 /* Copy Pods Resources */ = {
+		B5D1764554B3E1187EA45A7D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2C3E919E39DAA93EF3D1ECA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA5842A22862B8CAADFFD9E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuestagramUITests/Pods-HuestagramUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBC93B9FFE52C723779AE465 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuestagramTests/Pods-HuestagramTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -340,7 +471,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				21180F5366007042666EA4C8 /* AppDelegate.swift in Sources */,
+				275F3E231D1C0A8E009EB3D8 /* SubView4.swift in Sources */,
 				21180E3D7E1431AF3A698221 /* ViewController.swift in Sources */,
+				275F3E131D1C0A38009EB3D8 /* SubView0.swift in Sources */,
+				275F3E1B1D1C0A6A009EB3D8 /* SubView2.swift in Sources */,
+				275F3E171D1C0A5A009EB3D8 /* SubView1.swift in Sources */,
+				275F3E1F1D1C0A7C009EB3D8 /* SubView3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +525,7 @@
 /* Begin XCBuildConfiguration section */
 		211807ED8B935361F6CE8612 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5CC5D4A824D4376CA63851 /* Pods-HuestagramTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Huestagram.app/Huestagram";
 				INFOPLIST_FILE = HuestagramTests/Info.plist;
@@ -440,7 +577,7 @@
 		};
 		211808C5317C1BF1292DDB4E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50D00C6102018F81697FD290 /* Pods-Huestagram.release.xcconfig */;
+			baseConfigurationReference = 5650CFF12D48D2DC7019DA45 /* Pods-Huestagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -455,6 +592,7 @@
 		};
 		21180900E52BE500F553D22A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDBBD6E91873AAF8C3FFA06A /* Pods-HuestagramUITests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Huestagram.app/Huestagram";
 				INFOPLIST_FILE = HuestagramUITests/Info.plist;
@@ -467,7 +605,7 @@
 		};
 		21180C96B6B1F53C14DF4313 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78AFAF237018465D90F6264E /* Pods-Huestagram.debug.xcconfig */;
+			baseConfigurationReference = A949A3170FE45E7EE5998981 /* Pods-Huestagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -482,6 +620,7 @@
 		};
 		21180DE5E5597EDF7FFB612F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0598A3B5908518A7336B9B8D /* Pods-HuestagramUITests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Huestagram.app/Huestagram";
 				INFOPLIST_FILE = HuestagramUITests/Info.plist;
@@ -494,6 +633,7 @@
 		};
 		21180E63CC34B574B385BADB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C421DF50312960E03AEA60D6 /* Pods-HuestagramTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Huestagram.app/Huestagram";
 				INFOPLIST_FILE = HuestagramTests/Info.plist;
