@@ -5,6 +5,8 @@ use_frameworks!
 
 target 'Huestagram' do
 pod 'ChameleonFramework/Swift'
+pod ’SwiftyHue’, '~> 0.1.6'
+pod ‘SwiftyJSON’
 end
 
 target 'HuestagramTests' do
