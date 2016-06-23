@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A1DB4FEF190B4A115F47C0D6'
-               BlueprintName = 'Pods-Huestagram'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods_Huestagram.framework'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FEB021E3A63985E355E15207B2753267"
+               BlueprintName = "Pods-Huestagram"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "Pods_Huestagram.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
