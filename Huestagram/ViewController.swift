@@ -15,6 +15,7 @@ import Alamofire
 import SwiftyJSON
 
 class ViewController: UIViewController , UIPageViewControllerDataSource{
+    @IBOutlet weak var mainColorView: UIView!
     
     var pageViewController :UIPageViewController!
     var pageImageDataArr = Array<NSData>()
@@ -27,6 +28,7 @@ class ViewController: UIViewController , UIPageViewControllerDataSource{
         for i in 0 ..< 5 {
             initData(i)
         }
+        self.mainColorView.backgroundColor = self.pageColorArr[0]
         
         self.pageViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PageViewController") as! UIPageViewController
         
@@ -36,7 +38,7 @@ class ViewController: UIViewController , UIPageViewControllerDataSource{
         
         self.pageViewController.setViewControllers(viewController as? [UIViewController], direction: .Forward, animated: true, completion: nil)
         
-        self.pageViewController.view.frame = CGRectMake(0, 30, self.view.frame.size.width, self.view.frame.size.height)
+        self.pageViewController.view.frame = CGRectMake(0, 30, self.view.frame.size.width, self.view.frame.size.height-30)
         
         self.addChildViewController(self.pageViewController)
         self.view.addSubview(self.pageViewController.view)
@@ -88,8 +90,10 @@ class ViewController: UIViewController , UIPageViewControllerDataSource{
 
         let vc :ContentViewController = self.storyboard!.instantiateViewControllerWithIdentifier("ContentViewController") as! ContentViewController
         
+       
         vc.imageData = pageImageDataArr[index] 
         vc.color = pageColorArr[index]
+        
         vc.pageIndex = index
         return vc
     }
@@ -98,10 +102,16 @@ class ViewController: UIViewController , UIPageViewControllerDataSource{
         let vc = viewController as! ContentViewController
         var index = vc.pageIndex as Int
         
-        if(index == 0 || index == NSNotFound){
+        UIView.animateWithDuration(0.1, delay: 0.0, options:[UIViewAnimationOptions.AllowAnimatedContent, UIViewAnimationOptions.AllowAnimatedContent], animations: {
+            self.mainColorView.backgroundColor = self.pageColorArr[index]
+            
+            }, completion: nil)
+        
+                if(index == 0 || index == NSNotFound){
             return nil
         }
         
+
         index-=1
         return self.viewControllerAtIndex(index)
     }
@@ -110,6 +120,11 @@ class ViewController: UIViewController , UIPageViewControllerDataSource{
     func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
         let vc = viewController as! ContentViewController
         var index = vc.pageIndex as Int
+        
+        UIView.animateWithDuration(0.1, delay: 0.0, options:[UIViewAnimationOptions.AllowAnimatedContent, UIViewAnimationOptions.AllowAnimatedContent], animations: {
+            self.mainColorView.backgroundColor = self.pageColorArr[index]
+            
+            }, completion: nil)
         
         if(index == NSNotFound){
             return nil
@@ -120,6 +135,8 @@ class ViewController: UIViewController , UIPageViewControllerDataSource{
         if (index == self.pageImageDataArr.count){
             return nil
         }
+        
+        
         
         return self.viewControllerAtIndex(index)
     }
