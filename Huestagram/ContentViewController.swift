@@ -1,19 +1,30 @@
 //
-//  SubView1.swift
+//  ContentViewController.swift
 //  Huestagram
 //
-//  Created by junyoung on 2016. 6. 23..
+//  Created by 성준영 on 2016. 6. 29..
 //  Copyright © 2016년 JUNYOUNG. All rights reserved.
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
-class SubView1: UIViewController {
+class ContentViewController: UIViewController {
 
+    var pageIndex : Int!
+    var imageData : NSData!
+    var color : UIColor!
+    
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var colorView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        self.imageView.image = UIImage(data:imageData!)
+        self.colorView.backgroundColor = color
+        
     }
 
     override func didReceiveMemoryWarning() {

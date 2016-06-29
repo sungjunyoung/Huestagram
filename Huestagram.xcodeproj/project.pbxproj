@@ -7,28 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		087A34061D23BAF500AF142D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087A34051D23BAF500AF142D /* PageViewController.swift */; };
+		087A340C1D23BD2700AF142D /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087A340B1D23BD2700AF142D /* ContentViewController.swift */; };
 		0D321450FDF6004E60D4ABD9 /* Pods_HuestagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8905703E6D4D07BEA2E8EADA /* Pods_HuestagramTests.framework */; };
 		2118013D25884173C02B481C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21180D2F21288695074CAC2E /* Main.storyboard */; };
 		211804411EBF501565B8BCA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211800B40C859220EB77F6F3 /* LaunchScreen.storyboard */; };
-		2118087CF5E8205B720AE84F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 211808CCDC473FA7DEDB277F /* Info.plist */; };
 		21180AAA1A93643F0E7CD6AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21180CFC9B9DAC067DEFBE7F /* Assets.xcassets */; };
-		21180BF737CB819B55CD1468 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21180527E8FFE9ABC7F7311C /* Info.plist */; };
 		21180DCF21083C19E02EFE9F /* HuestagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118057AABFD7324CAE8E590 /* HuestagramTests.swift */; };
-		21180DEDADB474CBC35A7CAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21180B1DA1F3BFA7B76C5D81 /* Info.plist */; };
 		21180E3D7E1431AF3A698221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21180DAEAE35AD52D36A9618 /* ViewController.swift */; };
 		21180F5366007042666EA4C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21180DBAD5F9C443417ECC58 /* AppDelegate.swift */; };
 		21180F6C0A273AEF95E73B21 /* HuestagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21180B8C4B042877B9F730A6 /* HuestagramUITests.swift */; };
 		2707ADA81D15492400CA2408 /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2707ADA71D15492400CA2408 /* ChameleonFramework.framework */; };
-		275F3E131D1C0A38009EB3D8 /* SubView0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F3E111D1C0A38009EB3D8 /* SubView0.swift */; };
-		275F3E141D1C0A38009EB3D8 /* SubView0.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275F3E121D1C0A38009EB3D8 /* SubView0.xib */; };
-		275F3E171D1C0A5A009EB3D8 /* SubView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F3E151D1C0A5A009EB3D8 /* SubView1.swift */; };
-		275F3E181D1C0A5A009EB3D8 /* SubView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275F3E161D1C0A5A009EB3D8 /* SubView1.xib */; };
-		275F3E1B1D1C0A6A009EB3D8 /* SubView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F3E191D1C0A6A009EB3D8 /* SubView2.swift */; };
-		275F3E1C1D1C0A6A009EB3D8 /* SubView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275F3E1A1D1C0A6A009EB3D8 /* SubView2.xib */; };
-		275F3E1F1D1C0A7C009EB3D8 /* SubView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F3E1D1D1C0A7C009EB3D8 /* SubView3.swift */; };
-		275F3E201D1C0A7C009EB3D8 /* SubView3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275F3E1E1D1C0A7C009EB3D8 /* SubView3.xib */; };
-		275F3E231D1C0A8E009EB3D8 /* SubView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F3E211D1C0A8E009EB3D8 /* SubView4.swift */; };
-		275F3E241D1C0A8E009EB3D8 /* SubView4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275F3E221D1C0A8E009EB3D8 /* SubView4.xib */; };
 		31E4F298A4210586A2C23DDA /* Pods_Huestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381D51F34B2230F7671C4B63 /* Pods_Huestagram.framework */; };
 		937CF74DF6F7670C55BABC84 /* Pods_HuestagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A396DCEDA174459FE88C9A20 /* Pods_HuestagramUITests.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		0598A3B5908518A7336B9B8D /* Pods-HuestagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuestagramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuestagramUITests/Pods-HuestagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		087A34051D23BAF500AF142D /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageViewController.swift; path = ../../Huestagram/Huestagram/PageViewController.swift; sourceTree = "<group>"; };
+		087A340B1D23BD2700AF142D /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentViewController.swift; path = ../../Huestagram/Huestagram/ContentViewController.swift; sourceTree = "<group>"; };
 		21180448F633B6A0CD4B86C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21180490BE319FA2E698C50C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		211804C24CB38E5EA3A13BE8 /* HuestagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuestagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,16 +57,6 @@
 		21180DBAD5F9C443417ECC58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21180FB844D20F618676D92E /* Huestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2707ADA71D15492400CA2408 /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Huestagram-hfogvworhkuuxmcaepvdzkqfgdqr/Build/Products/Debug-iphoneos/ChameleonFramework.framework"; sourceTree = "<group>"; };
-		275F3E111D1C0A38009EB3D8 /* SubView0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubView0.swift; sourceTree = "<group>"; };
-		275F3E121D1C0A38009EB3D8 /* SubView0.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubView0.xib; sourceTree = "<group>"; };
-		275F3E151D1C0A5A009EB3D8 /* SubView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubView1.swift; sourceTree = "<group>"; };
-		275F3E161D1C0A5A009EB3D8 /* SubView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubView1.xib; sourceTree = "<group>"; };
-		275F3E191D1C0A6A009EB3D8 /* SubView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubView2.swift; sourceTree = "<group>"; };
-		275F3E1A1D1C0A6A009EB3D8 /* SubView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubView2.xib; sourceTree = "<group>"; };
-		275F3E1D1D1C0A7C009EB3D8 /* SubView3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubView3.swift; sourceTree = "<group>"; };
-		275F3E1E1D1C0A7C009EB3D8 /* SubView3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubView3.xib; sourceTree = "<group>"; };
-		275F3E211D1C0A8E009EB3D8 /* SubView4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubView4.swift; sourceTree = "<group>"; };
-		275F3E221D1C0A8E009EB3D8 /* SubView4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubView4.xib; sourceTree = "<group>"; };
 		381D51F34B2230F7671C4B63 /* Pods_Huestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Huestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5650CFF12D48D2DC7019DA45 /* Pods-Huestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Huestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Huestagram/Pods-Huestagram.release.xcconfig"; sourceTree = "<group>"; };
 		8905703E6D4D07BEA2E8EADA /* Pods_HuestagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuestagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,16 +136,8 @@
 				21180DBAD5F9C443417ECC58 /* AppDelegate.swift */,
 				21180D2F21288695074CAC2E /* Main.storyboard */,
 				21180DAEAE35AD52D36A9618 /* ViewController.swift */,
-				275F3E111D1C0A38009EB3D8 /* SubView0.swift */,
-				275F3E121D1C0A38009EB3D8 /* SubView0.xib */,
-				275F3E151D1C0A5A009EB3D8 /* SubView1.swift */,
-				275F3E161D1C0A5A009EB3D8 /* SubView1.xib */,
-				275F3E191D1C0A6A009EB3D8 /* SubView2.swift */,
-				275F3E1A1D1C0A6A009EB3D8 /* SubView2.xib */,
-				275F3E1D1D1C0A7C009EB3D8 /* SubView3.swift */,
-				275F3E1E1D1C0A7C009EB3D8 /* SubView3.xib */,
-				275F3E211D1C0A8E009EB3D8 /* SubView4.swift */,
-				275F3E221D1C0A8E009EB3D8 /* SubView4.xib */,
+				087A34051D23BAF500AF142D /* PageViewController.swift */,
+				087A340B1D23BD2700AF142D /* ContentViewController.swift */,
 			);
 			path = Huestagram;
 			sourceTree = "<group>";
@@ -273,6 +246,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = JUNYOUNG;
 				TargetAttributes = {
 					211804DCCEB722E5CC07075F = {
@@ -304,14 +278,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				275F3E1C1D1C0A6A009EB3D8 /* SubView2.xib in Resources */,
-				275F3E241D1C0A8E009EB3D8 /* SubView4.xib in Resources */,
-				21180DEDADB474CBC35A7CAE /* Info.plist in Resources */,
-				275F3E181D1C0A5A009EB3D8 /* SubView1.xib in Resources */,
 				21180AAA1A93643F0E7CD6AE /* Assets.xcassets in Resources */,
 				211804411EBF501565B8BCA8 /* LaunchScreen.storyboard in Resources */,
-				275F3E201D1C0A7C009EB3D8 /* SubView3.xib in Resources */,
-				275F3E141D1C0A38009EB3D8 /* SubView0.xib in Resources */,
 				2118013D25884173C02B481C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,7 +288,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21180BF737CB819B55CD1468 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +295,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2118087CF5E8205B720AE84F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,13 +436,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087A340C1D23BD2700AF142D /* ContentViewController.swift in Sources */,
+				087A34061D23BAF500AF142D /* PageViewController.swift in Sources */,
 				21180F5366007042666EA4C8 /* AppDelegate.swift in Sources */,
-				275F3E231D1C0A8E009EB3D8 /* SubView4.swift in Sources */,
 				21180E3D7E1431AF3A698221 /* ViewController.swift in Sources */,
-				275F3E131D1C0A38009EB3D8 /* SubView0.swift in Sources */,
-				275F3E1B1D1C0A6A009EB3D8 /* SubView2.swift in Sources */,
-				275F3E171D1C0A5A009EB3D8 /* SubView1.swift in Sources */,
-				275F3E1F1D1C0A7C009EB3D8 /* SubView3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

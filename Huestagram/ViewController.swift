@@ -14,25 +14,44 @@ import Gloss
 import Alamofire
 import SwiftyJSON
 
-class ViewController: UIViewController {
-
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var colorView: UIView!
-    var image : UIImage!
-    var color : UIColor!
+class ViewController: UIViewController , UIPageViewControllerDataSource{
     
-
+    var pageViewController :UIPageViewController!
+    var pageImageDataArr = Array<NSData>()
+    var pageColorArr = Array<UIColor>()
     
     override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+        
+        for i in 0 ..< 5 {
+            initData(i)
+        }
+        
+        self.pageViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PageViewController") as! UIPageViewController
+        
+        self.pageViewController.dataSource = self
+        let startVC = self.viewControllerAtIndex(0) as ContentViewController
+        let viewController = NSArray(object:startVC)
+        
+        self.pageViewController.setViewControllers(viewController as? [UIViewController], direction: .Forward, animated: true, completion: nil)
+        
+        self.pageViewController.view.frame = CGRectMake(0, 30, self.view.frame.size.width, self.view.frame.size.height)
+        
+        self.addChildViewController(self.pageViewController)
+        self.view.addSubview(self.pageViewController.view)
+        self.pageViewController.didMoveToParentViewController(self)
+    }
+    
+    func initData(index:Int){
+        
         var imageUrl:NSURL!
         let url = "https://api.instagram.com/v1/users/self/media/recent/?access_token=2208353345.5e673c6.bb9a60eedb8d461eac9dd99108fd3ced"
         var finishFlag = 0
         Alamofire.request(.GET,url).responseJSON { response in
             var json = JSON(data: response.data!)
             if response.result.isSuccess{
-                if let stringUrl = json["data"][0]["images"]["standard_resolution"]["url"].rawString() {
+                if let stringUrl = json["data"][index]["images"]["standard_resolution"]["url"].rawString() {
                     //Do something you want
                     imageUrl = NSURL(string: stringUrl)
                     finishFlag = 1
@@ -44,45 +63,73 @@ class ViewController: UIViewController {
             
             
         }
-    
+        
         while(finishFlag == 0){
             NSRunLoop.currentRunLoop().runMode(NSDefaultRunLoopMode, beforeDate: NSDate.distantFuture())
         }
         
-       
-        print (imageUrl)
-        let myData = NSData(contentsOfURL:imageUrl)
-        imageView.image = UIImage(data:myData!)
-        image = UIImage(data:myData!)
-        
-        color = AverageColorFromImage(image)
-        colorView.backgroundColor = color
-        
-        var red:CGFloat = 0, green:CGFloat = 0, blue:CGFloat = 0, alpha:CGFloat = 0
-        color.getRed(&red, green: &green, blue: &blue, alpha: &alpha)
-        
-        red = red/255
-        green = green/255
-        blue = blue/255
-        
-        red = (red > 0.04045) ? pow((red + 0.055) / (1.0 + 0.055), 2.4) : (red / 12.92)
-        green = (green > 0.04045) ? pow((green + 0.055) / (1.0 + 0.055), 2.4) : (green / 12.92)
-        blue = (blue > 0.04045) ? pow((blue + 0.055) / (1.0 + 0.055), 2.4) : (blue / 12.92)
-        
-        let X = red * 0.649926 + green * 0.103455 + blue * 0.197109
-        let Y = red * 0.234327 + green * 0.743075 + blue * 0.022598
-        let Z = red * 0.0000000 + green * 0.053077 + blue * 1.035763
-        
-        let x = X / (X + Y + Z), y = Y / (X + Y + Z)
-
-        let parameters: [String: AnyObject] = ["on":true, "sat":254, "bri":254,"hue":101010,"xy":[x,y]]
-        
-        let hueUrl = "http://172.30.1.7/api/H-jjdPINe0I19x1grnv9rlvyDnclBS7pL6ZtHqu3/lights/1/state"
-        Alamofire.request(.PUT,hueUrl,parameters: parameters, encoding: .JSON).responseJSON{
-            response in
-            print(response)
+        if(finishFlag == 1){
+            
+            print (imageUrl)
+            let myData = NSData(contentsOfURL:imageUrl)
+            self.pageImageDataArr.append(myData!)
+            
+            let image = UIImage(data:myData!)
+            let color = AverageColorFromImage(image!)
+            self.pageColorArr.append(color)
         }
+    }
+    
+    func viewControllerAtIndex(index : Int)->ContentViewController{
+        if((self.pageImageDataArr.count == 0) || (index >= self.pageImageDataArr.count)){
+            return ContentViewController()
+        }
+       
 
+        let vc :ContentViewController = self.storyboard!.instantiateViewControllerWithIdentifier("ContentViewController") as! ContentViewController
+        
+        vc.imageData = pageImageDataArr[index] 
+        vc.color = pageColorArr[index]
+        vc.pageIndex = index
+        return vc
+    }
+    
+    func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController? {
+        let vc = viewController as! ContentViewController
+        var index = vc.pageIndex as Int
+        
+        if(index == 0 || index == NSNotFound){
+            return nil
+        }
+        
+        index-=1
+        return self.viewControllerAtIndex(index)
+    }
+    
+    
+    func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
+        let vc = viewController as! ContentViewController
+        var index = vc.pageIndex as Int
+        
+        if(index == NSNotFound){
+            return nil
+        }
+        
+        index+=1
+        
+        if (index == self.pageImageDataArr.count){
+            return nil
+        }
+        
+        return self.viewControllerAtIndex(index)
+    }
+    
+    func presentationCountForPageViewController(pageViewController: UIPageViewController) -> Int {
+        return self.pageImageDataArr.count
+    }
+    
+    func presentationIndexForPageViewController(pageViewController: UIPageViewController) -> Int {
+        return 0
     }
     
 }
