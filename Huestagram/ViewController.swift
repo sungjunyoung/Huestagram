@@ -20,6 +20,8 @@ class ViewController: UIViewController , UIPageViewControllerDataSource{
     var pageViewController :UIPageViewController!
     var pageImageDataArr = Array<NSData>()
     var pageColorArr = Array<UIColor>()
+    var textArr = Array<String>()
+
     
     override func viewDidLoad() {
     super.viewDidLoad()
@@ -45,9 +47,20 @@ class ViewController: UIViewController , UIPageViewControllerDataSource{
         self.pageViewController.didMoveToParentViewController(self)
     }
     
-    func initData(index:Int){
+    override func viewDidAppear(animated: Bool) {
         
+        pageImageDataArr.removeAll()
+        pageColorArr.removeAll()
+        textArr.removeAll()
+        super.viewDidAppear(false)
+        for i in 0..<5{
+            initData(i)
+        }
+    }
+    
+    func initData(index:Int){
         var imageUrl:NSURL!
+        var userText:String!
         let url = "https://api.instagram.com/v1/users/self/media/recent/?access_token=2208353345.5e673c6.bb9a60eedb8d461eac9dd99108fd3ced"
         var finishFlag = 0
         Alamofire.request(.GET,url).responseJSON { response in
@@ -58,6 +71,13 @@ class ViewController: UIViewController , UIPageViewControllerDataSource{
                     imageUrl = NSURL(string: stringUrl)
                     finishFlag = 1
                 }
+                
+                if let stringText = json["data"][index]["caption"]["text"].rawString() {
+                    //Do something you want
+                    userText = stringText
+                    finishFlag = 1
+                }
+                
             } else{
                 print ("no")
                 finishFlag = 0
@@ -79,6 +99,8 @@ class ViewController: UIViewController , UIPageViewControllerDataSource{
             let image = UIImage(data:myData!)
             let color = AverageColorFromImage(image!)
             self.pageColorArr.append(color)
+            
+            self.textArr.append(userText)
         }
     }
     
@@ -93,6 +115,7 @@ class ViewController: UIViewController , UIPageViewControllerDataSource{
        
         vc.imageData = pageImageDataArr[index] 
         vc.color = pageColorArr[index]
+        vc.text = textArr[index]
         
         vc.pageIndex = index
         return vc
@@ -101,18 +124,19 @@ class ViewController: UIViewController , UIPageViewControllerDataSource{
     func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController? {
         let vc = viewController as! ContentViewController
         var index = vc.pageIndex as Int
+        index-=1
+        if(index+1 == 0 || index == NSNotFound){
+            return nil
+        }
         
+
         UIView.animateWithDuration(0.1, delay: 0.0, options:[UIViewAnimationOptions.AllowAnimatedContent, UIViewAnimationOptions.AllowAnimatedContent], animations: {
             self.mainColorView.backgroundColor = self.pageColorArr[index]
             
             }, completion: nil)
         
-                if(index == 0 || index == NSNotFound){
-            return nil
-        }
+       
         
-
-        index-=1
         return self.viewControllerAtIndex(index)
     }
     
@@ -120,22 +144,17 @@ class ViewController: UIViewController , UIPageViewControllerDataSource{
     func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
         let vc = viewController as! ContentViewController
         var index = vc.pageIndex as Int
-        
+        index+=1
+        if(index-1 == NSNotFound){
+            return nil
+        }
+        if (index-1 == self.pageImageDataArr.count-1){
+            return nil
+        }
         UIView.animateWithDuration(0.1, delay: 0.0, options:[UIViewAnimationOptions.AllowAnimatedContent, UIViewAnimationOptions.AllowAnimatedContent], animations: {
             self.mainColorView.backgroundColor = self.pageColorArr[index]
             
             }, completion: nil)
-        
-        if(index == NSNotFound){
-            return nil
-        }
-        
-        index+=1
-        
-        if (index == self.pageImageDataArr.count){
-            return nil
-        }
-        
         
         
         return self.viewControllerAtIndex(index)
